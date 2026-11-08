@@ -1,0 +1,33 @@
+# BigWigs packager layout contract for BigNoteBox Spelling Pack.
+# One load-on-demand addon per language at the repo root; move-folders lifts
+# each one to the top level of the zip. The zip must list exactly the
+# BigNoteBox_Spell_<locale> folders and nothing else.
+
+package-as: BigNoteBox_SpellPack
+
+enable-nolib-creation: no
+
+move-folders:
+  BigNoteBox_SpellPack/BigNoteBox_Spell_deDE: BigNoteBox_Spell_deDE
+  BigNoteBox_SpellPack/BigNoteBox_Spell_frFR: BigNoteBox_Spell_frFR
+
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+
+# CurseForge relation, so the CurseForge app installs BigNoteBox with the pack.
+required-dependencies:
+  - bignotebox
+
+# The word list sources and the build scripts stay in the repo (the licenses
+# ask for them), not in the zip.
+ignore:
+  - .github
+  - .pkgmeta
+  - .gitignore
+  - .gitattributes
+  - tools
+  - sources
+  - README.md
+  - CHANGELOG.md
+  - STORE-DESCRIPTION.md
