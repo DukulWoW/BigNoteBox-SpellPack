@@ -35,3 +35,9 @@ Each addon folder carries the license of its word list in `LICENSE` (German also
 `COPYING`); each `sources/` folder keeps the dictionary's own README and license files.
 
 German compound words (Gildenbank, Questgeber) are checked by splitting them into known words; Settings > Modules > Spelling can limit that to the compounds the German dictionary itself allows.
+
+## License
+
+The repository as a whole is under the GNU General Public License version 3 (`LICENSE`), as is
+the German word list (GPL 2 or 3, its choice). The French word list stays under the Mozilla Public
+License 2.0, the license of its source; its terms are in `BigNoteBox_Spell_frFR/LICENSE`.

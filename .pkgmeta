@@ -30,4 +30,5 @@ ignore:
   - sources
   - README.md
   - CHANGELOG.md
+  - LICENSE
   - STORE-DESCRIPTION.md
