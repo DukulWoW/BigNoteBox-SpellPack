@@ -8,6 +8,7 @@
 ## Dependencies: BigNoteBox
 ## LoadOnDemand: 1
 ## X-Curse-Project-ID: 1791844
+## X-Wago-ID: qGZABqKd
 
 ## Category-enUS: Notes & Organization
 ## Category-deDE: Notizen & Organisation
